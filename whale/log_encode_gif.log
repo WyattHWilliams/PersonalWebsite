@@ -1,0 +1,155 @@
+ffmpeg version 4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.1 (GCC) 20200726
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libgsm --enable-librav1e --disable-w32threads --enable-libmfx --enable-ffnvcodec --enable-cuda-llvm --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt --enable-amf
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Wyatt/AppData/Local/Temp/KritaFFmpegProgress.b26676'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '3'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '3'.
+Reading option '-i' ... matched as input url with argument 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/whale_anim.gif' ... matched as output url.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'scale=w=7000:h=3362:force_original_aspect_ratio=decrease'.
+Trailing option(s) found in the command: may be ignored.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Wyatt/AppData/Local/Temp/KritaFFmpegProgress.b26676.
+[file @ 000001f05bfff840] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 3.
+Successfully parsed a group of options.
+Opening an input file: D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame%04d.png.
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0003.png' for reading
+[file @ 000001f05c043380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c04b540] Statistics: 106594 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0004.png' for reading
+[file @ 000001f05c04ae80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c04b000] Statistics: 103038 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0005.png' for reading
+[file @ 000001f05c04af40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c04b240] Statistics: 100724 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0006.png' for reading
+[file @ 000001f05c04af40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c04b400] Statistics: 105256 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0007.png' for reading
+[file @ 000001f05c04b400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05d049c80] Statistics: 104707 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0008.png' for reading
+[file @ 000001f05d049c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05d063740] Statistics: 102368 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0009.png' for reading
+[file @ 000001f05d063740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c0a5340] Statistics: 102277 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0010.png' for reading
+[file @ 000001f05c0a5340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c0a5d00] Statistics: 102196 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0011.png' for reading
+[file @ 000001f05c0a5d00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c0a5e00] Statistics: 103791 bytes read, 0 seeks
+[image2 @ 000001f05c03fc80] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame0012.png' for reading
+[file @ 000001f05c0a5dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001f05c0a5e80] Statistics: 105339 bytes read, 0 seeks
+Input #0, image2, from 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame%04d.png':
+  Duration: 00:00:00.40, start: 0.000000, bitrate: N/A
+    Stream #0:0, 10, 1/25: Video: png, 1 reference frame, rgba(pc), 2550x1225 [SAR 11811:11811 DAR 102:49], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/palette.png.
+[NULL @ 000001f05c041940] Opening 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/palette.png' for reading
+[file @ 000001f05c0a6cc0] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 000001f05c041940] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000001f05c041940] Before avformat_find_stream_info() pos: 0 bytes read:136 seeks:0 nb_streams:1
+[png_pipe @ 000001f05c041940] After avformat_find_stream_info() pos: 136 bytes read:136 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/whale_anim.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/whale_anim.gif.
+[file @ 000001f05d165840] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001f05c03fc80] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 11 times
+[graph 0 input from stream 0:0 @ 000001f05c04b500] Setting 'video_size' to value '2550x1225'
+[graph 0 input from stream 0:0 @ 000001f05c04b500] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001f05c04b500] Setting 'time_base' to value '1/3'
+[graph 0 input from stream 0:0 @ 000001f05c04b500] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000001f05c04b500] Setting 'frame_rate' to value '3/1'
+[graph 0 input from stream 0:0 @ 000001f05c04b500] w:2550 h:1225 pixfmt:rgba tb:1/3 fr:3/1 sar:11811/11811
+[graph 0 input from stream 1:0 @ 000001f05c0a5d00] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000001f05c0a5d00] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000001f05c0a5d00] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000001f05c0a5d00] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000001f05c0a5d00] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000001f05c0a5d00] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 000001f05d137dc0] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 000001f05d15b0c0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001f05c04b340] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000001f05d1a5b80] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001f05c04b340] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000001f05c08bb80] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000001f063324fc0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001f05d15b0c0] w:2550 h:1225 fmt:rgba sar:11811/11811 -> w:2550 h:1225 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000001f063331f40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001f05d1a5b80] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000001f05c04b340] [framesync @ 000001f0632a2408] Selected 1/75 time base
+[Parsed_paletteuse_0 @ 000001f05c04b340] [framesync @ 000001f0632a2408] Sync level 2
+Output #0, gif, to 'D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/whale_anim.gif':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 2550x1225 [SAR 1:1 DAR 102:49], 0/1, q=2-31, 200 kb/s, 3 fps, 100 tbn, 3 tbc (default)
+    Metadata:
+      encoder         : Lavc58.91.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 000001f05d164c00] 698x303 image at pos (934;187) [area:2550x1225]
+[gif @ 000001f05d164c00] 713x329 image at pos (920;188) [area:2550x1225]
+[gif @ 000001f05d164c00] 740x286 image at pos (917;189) [area:2550x1225]
+frame=    4 fps=0.0 q=-0.0 size=      23kB time=00:00:01.01 bitrate= 187.3kbits/s speed=1.83x    [gif @ 000001f05d164c00] 717x243 image at pos (914;178) [area:2550x1225]
+[gif @ 000001f05d164c00] 708x229 image at pos (926;169) [area:2550x1225]
+[gif @ 000001f05d164c00] 717x270 image at pos (928;182) [area:2550x1225]
+[gif @ 000001f05d164c00] 708x287 image at pos (930;177) [area:2550x1225]
+[gif @ 000001f05d164c00] 724x324 image at pos (925;171) [area:2550x1225]
+[gif @ 000001f05d164c00] 703x307 image at pos (932;201) [area:2550x1225]
+[Parsed_paletteuse_0 @ 000001f05c04b340] [framesync @ 000001f0632a2408] Sync level 0
+frame=   10 fps=9.5 q=-0.0 size=      52kB time=00:00:03.01 bitrate= 140.3kbits/s speed=2.86x    [out_0_0 @ 000001f05d137cc0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   10 fps=9.5 q=-0.0 Lsize=      58kB time=00:00:03.01 bitrate= 156.6kbits/s speed=2.86x    
+[AVIOContext @ 000001f05c03fa00] Statistics: 0 seeks, 3 writeouts
+video:58kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.033947%
+Input file #0 (D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/frame%04d.png):
+  Input stream #0:0 (video): 10 packets read (1036290 bytes); 10 frames decoded; 
+  Total: 10 packets (1036290 bytes) demuxed
+Input file #1 (D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/palette.png):
+  Input stream #1:0 (video): 1 packets read (136 bytes); 1 frames decoded; 
+  Total: 1 packets (136 bytes) demuxed
+Output file #0 (D:/Documents/[-SPRINGBOARD-]/personalSite/v3/whale/whale_anim.gif):
+  Output stream #0:0 (video): 10 frames encoded; 10 packets muxed (58916 bytes); 
+  Total: 10 packets (58916 bytes) muxed
+11 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001f05d165940] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 000001f05c0a6dc0] Statistics: 136 bytes read, 0 seeks
